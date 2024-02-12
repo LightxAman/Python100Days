@@ -64,7 +64,7 @@ tuple1 = (("Light", "Dark"), ("Code", "Coding"))
 print(tuple1, ", The Type: ", type(tuple1))
 
 # Mapped Datatype - dict
-# dict - a dictionary is an unordered colllection of data containing a key:value pair.
+# dict - a dictionary is an unordered collection of data containing a key:value pair.
 # The key:value pairs are enclosed within curly{} brackets
 
 dict1 = {"name": "Light", "age": 20, "canVote": True}
