@@ -60,3 +60,5 @@ isGreater(a, b)
 def isLesser(a, b):
     pass
 # here pass keyword is used else it will throw error.
+
+# Thanks ^-^
