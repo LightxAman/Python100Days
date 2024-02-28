@@ -10,8 +10,23 @@
 # The most common technique to emulate a do-while loop in python is to use an infinite while loop with a break statement
 # wrapped in an if statement that checks a given condition and breaks the iteration if that condition becomes true
 
+print("Example 1: ")
+
 while True:
-    number = int(input("Enter a positive number: "))
+    number = int(input("Enter a positive number less than 10: "))
     print(number)
-    if not number > 0:
+    if not number > 10:
+        break
+
+print("\nExample 2: ")
+
+secret_word = "python"
+counter = 0
+
+while True:
+    word = input("Enter the secret word: ").lower()
+    counter = counter + 1
+    if word == secret_word:
+        break
+    if word != secret_word and counter > 7:
         break
