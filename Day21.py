@@ -45,6 +45,7 @@ average2(5, 6, 7, 7)
 
 
 def name(**name):  # Dictionary
+def name(**name):  # Dictionary
     print("Hello", name["fname"], name["mname"], name["lname"])
 
 
