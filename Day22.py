@@ -49,5 +49,11 @@ print("\n\nList comprehension")
 lst = [i for i in range(4)]
 print(lst)
 
+lst = [i for i in range(6)]
+print(lst)
+
+lst = [i for i in range(40)]
+print(lst)
+
 lst = [i for i in range(10) if i % 2 == 0]
 print(lst)
