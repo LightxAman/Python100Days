@@ -7,7 +7,7 @@
 # Lists are changeable meaning we can alter them after creation.
 
 # a basic implementation of List
-marks = [3, 5, 6, 7, 7, 6, 8]
+marks = [3, 5, 6, 7, 7, 6, 8, "Light", "Dark"]
 print(marks)
 print(type(marks))
 print(marks[0])
@@ -29,6 +29,16 @@ print(marks[len(marks) - 3])  # negative to positive, easier to understand.
 # Checking if an item is in list
 
 if 7 in marks:
+    print("Yes")
+else:
+    print("No")
+
+if 65 in marks:
+    print("Yes")
+else:
+    print("No")
+
+if "Light" in marks:
     print("Yes")
 else:
     print("No")
