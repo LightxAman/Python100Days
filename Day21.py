@@ -31,7 +31,7 @@ print("\nRequired Arguments passed")
 average1(b=10, a=12)
 
 
-# Variable length arguments
+# Variable length arguments Examples
 
 def average2(*numbers):  # Tuple
     sum = 0
