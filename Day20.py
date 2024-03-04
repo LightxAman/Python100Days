@@ -52,7 +52,15 @@ def isGreater(a, b):
         print("B is greater!")
 
 
+def isLesser(a, b):
+    if a < b:
+        print("A is Lesser!")
+    else:
+        print("B is Lesser!")
+
+
 isGreater(a, b)
+isLesser(a, b)
 
 
 # what if we wish to define the function at a later time
