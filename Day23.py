@@ -1,6 +1,6 @@
 # Python Practice examples on functions
 
-# defining a function to calculate LCM
+# Example 1 :defining a function to calculate LCM
 def calculate_lcm(x, y):
     # selecting the greater number
     if x > y:
@@ -16,7 +16,29 @@ def calculate_lcm(x, y):
 
 
 # taking input from users
+print("Example 1: defining a function to calculate LCM")
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 # printing the result for the users
 print("The L.C.M. of", num1, "and", num2, "is", calculate_lcm(num1, num2))
+
+
+# Example 2: defining a function to calculate HCF
+def calculate_hcf(x, y):
+    # selecting the smaller number
+    if x > y:
+        smaller = y
+    else:
+        smaller = x
+    for i in range(1, smaller + 1):
+        if (x % i == 0) and (y % i == 0):
+            hcf = i
+    return hcf
+
+
+# taking input from users
+print("\nExample 2: defining a function to calculate HCF")
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+# printing the result for the users
+print("The H.C.F. of", num1, "and", num2, "is", calculate_hcf(num1, num2))
