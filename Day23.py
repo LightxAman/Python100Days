@@ -42,3 +42,13 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 # printing the result for the users
 print("The H.C.F. of", num1, "and", num2, "is", calculate_hcf(num1, num2))
+
+# First import the calendar module
+import calendar
+
+# ask of month and year
+print("\nExample 3: Defining the function for a calender")
+yy = int(input("Enter year: "))
+mm = int(input("Enter month: "))
+# display the calendar
+print(calendar.month(yy, mm))
