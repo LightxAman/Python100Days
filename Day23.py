@@ -64,4 +64,4 @@ nu1 = int(input("Enter first number: "))
 nu2 = int(input("Enter second number: "))
 nu3 = int(input("Enter second number: "))
 
-print("The Volume of cuboid of L, B, H :", nu1, ",", nu2, " and ", nu3, "is", volume_of_cuboid(nu1, nu2, nu3))
+print("\nThe Volume of cuboid of L, B, H :", nu1, ",", nu2, " and ", nu3, "is", volume_of_cuboid(nu1, nu2, nu3))
