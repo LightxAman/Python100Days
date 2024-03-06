@@ -60,8 +60,21 @@ def volume_of_cuboid(length, breadth, height):
 
 
 print("\nExample 4: Defining the function to calculate the Volume of cuboid: ")
-nu1 = int(input("Enter first number: "))
-nu2 = int(input("Enter second number: "))
-nu3 = int(input("Enter second number: "))
+nu1 = int(input("Enter Length: "))
+nu2 = int(input("Enter Breadth: "))
+nu3 = int(input("Enter Height: "))
 
 print("\nThe Volume of cuboid of L, B, H :", nu1, ",", nu2, " and ", nu3, "is", volume_of_cuboid(nu1, nu2, nu3))
+
+
+# Example 5: defining a function to calculate Volume and surface area of cube
+def cube(side):
+    volume = side ** 3
+    surface_area = 6 * (side ** 2)
+    return volume, surface_area
+
+
+print("\nExample 5: Defining the function to calculate the Volume and surface area of cube: ")
+s1 = int(input("Enter side value: "))
+
+print("\nThe volume and Surface area of the Cube of side ", s1, "are", cube(s1))
