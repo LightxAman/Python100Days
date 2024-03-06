@@ -43,7 +43,7 @@ num2 = int(input("Enter second number: "))
 # printing the result for the users
 print("The H.C.F. of", num1, "and", num2, "is", calculate_hcf(num1, num2))
 
-# First import the calendar module
+# Example 3: defining a function to import and use the calendar module
 import calendar
 
 # ask of month and year
@@ -52,3 +52,15 @@ yy = int(input("Enter year: "))
 mm = int(input("Enter month: "))
 # display the calendar
 print(calendar.month(yy, mm))
+
+
+# Example 4: defining a function to calculate Volume of cuboid
+def volume_of_cuboid(length, breadth, height):
+    return length * breadth * height
+
+
+nu1 = int(input("Enter first number: "))
+nu2 = int(input("Enter second number: "))
+nu3 = int(input("Enter second number: "))
+
+print("The Volume of cuboid of L, B, H :", nu1, ",", nu2, " and ", nu3, "is", volume_of_cuboid(nu1, nu2, nu3))
