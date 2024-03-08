@@ -19,3 +19,10 @@ print("\nExample 3 : iterate over in range")
 # iterate from i = 0 to i = 3
 for i in range(4):
     print(i)
+
+print("\nExample 4 : iterating using while loop")
+number = 1
+
+while number <= 3:
+    print(number)
+    number = number + 1
