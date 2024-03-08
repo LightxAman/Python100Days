@@ -8,9 +8,14 @@ languages = ['Swift', 'Python', 'Go']
 for i in languages:
     print(i)
 
-print("\nExample 1 : iterate over each character in language")
+print("\nExample 2 : iterate over each character in language")
 language = 'Python'
 
 # iterate over each character in language
 for x in language:
     print(x)
+
+print("\nExample 3 : iterate over in range")
+# iterate from i = 0 to i = 3
+for i in range(4):
+    print(i)
