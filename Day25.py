@@ -1,4 +1,5 @@
 # List Methods
+
 # list.sort()
 # This method sorts the list in ascending order. The original list is updated.
 
@@ -14,3 +15,12 @@ print(l)
 print("The list in descending order: ")
 l.sort(reverse=True)
 print(l)
+
+# Append : Adding an element at the back of a list
+print("Example 2: List.sort()")
+l1 = [1, 4, 2, 5, 7, 3, 8]
+print("The list is: \n", l1)
+
+print("Adding an element at the end of list: ")
+l1.append(10)
+print(l1)
