@@ -17,10 +17,16 @@ l.sort(reverse=True)
 print(l)
 
 # Append : Adding an element at the back of a list
-print("Example 2: List.sort()")
+print("Example 2: List.append()")
 l1 = [1, 4, 2, 5, 7, 3, 8]
 print("The list is: \n", l1)
 
 print("Adding an element at the end of list: ")
 l1.append(10)
 print(l1)
+
+# Reverse
+print("Example 3: List.reverse()")
+print("The list is: \n", l)
+l.reverse()
+print("The reversed list is: \n", l)
