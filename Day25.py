@@ -58,3 +58,21 @@ print(l)
 m = l.copy()
 m[0] = 0
 print(l)
+
+# Insert
+print("\nExample 7: List.insert()")
+print(l)
+l.insert(1, 77)
+print(l)
+
+# Extend
+
+print("\nExample 8: List.extend()")
+m = [900, 100, 200]
+l.extend(m)
+print(l)
+
+# Concatenate two list
+print("\nExample 9: List concatenate")
+k = l + m
+print(k)
