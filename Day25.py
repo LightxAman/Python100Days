@@ -30,3 +30,9 @@ print("Example 3: List.reverse()")
 print("The list is: \n", l)
 l.reverse()
 print("The reversed list is: \n", l)
+
+# index
+print("\nExample 2: List.index()")
+# This method returns the index of the first occurrence of the list item
+print("The list is : \n", l)
+print(l.index(65))
