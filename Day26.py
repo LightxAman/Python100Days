@@ -1,5 +1,5 @@
 # Tuples
-# Tuples are ordered collections of data item.
+#  are ordered collections of data item.
 # They store multiple items in a single variable.
 # Tuple items are separated by commas and enclosed within round brackets().
 # Tuples are unchangeable meaning we can not alter them after creation.
