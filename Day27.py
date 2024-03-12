@@ -30,3 +30,9 @@ fruits = ('apple', 'banana', 'orange')
 # iterate through the tuple
 for fruit in fruits:
     print(fruit)
+
+vegetables = ('carrot', 'Potato', 'Spinnach')
+
+# iterate through the tuple
+for vegetables in vegetables:
+    print(vegetables)
