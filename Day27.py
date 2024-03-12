@@ -23,3 +23,10 @@ print(languages[2])  # C++
 # Python Tuple Length
 cars = ('BMW', 'Tesla', 'Ford', 'Toyota')
 print('Total Items:', len(cars))
+
+# Iterate Through a Tuple
+fruits = ('apple', 'banana', 'orange')
+
+# iterate through the tuple
+for fruit in fruits:
+    print(fruit)
