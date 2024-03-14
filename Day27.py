@@ -55,3 +55,9 @@ print(concatenated_tuple)  # Output: (1, 2, 3, 4, 5, 6)
 tuple1 = ('a', 'b')
 repeated_tuple = tuple1 * 3
 print(repeated_tuple)  # Output: ('a', 'b', 'a', 'b', 'a', 'b')
+
+# Membership Test
+
+my_tuple = (1, 2, 3, 4, 5)
+print(3 in my_tuple)  # Output: True
+print(6 in my_tuple)  # Output: False
