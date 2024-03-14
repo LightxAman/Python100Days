@@ -36,3 +36,9 @@ vegetables = ('carrot', 'Potato', 'Spinnach')
 # iterate through the tuple
 for vegetables in vegetables:
     print(vegetables)
+
+# Accessing Elements
+
+my_tuple = (1, 2, 3, 4, 5)
+print(my_tuple[0])  # Output: 1
+print(my_tuple[1:3])  # Output: (2, 3)
