@@ -42,3 +42,9 @@ for vegetables in vegetables:
 my_tuple = (1, 2, 3, 4, 5)
 print(my_tuple[0])  # Output: 1
 print(my_tuple[1:3])  # Output: (2, 3)
+
+# Concatenation
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+concatenated_tuple = tuple1 + tuple2
+print(concatenated_tuple)  # Output: (1, 2, 3, 4, 5, 6)
