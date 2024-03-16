@@ -11,3 +11,9 @@ def square(n):
 square(5)
 # To see the docstring.
 print(square.__doc__)
+
+# Python Comments vs Docstrings
+
+# Python comments
+# They are descriptions that help programmers better understand the intent & functionality of code.
+# They are completely ignored by the python interpreter.
