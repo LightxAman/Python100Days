@@ -2,6 +2,7 @@
 # string formatting can be done in python using format method.
 
 # Example
+print("Example 1")
 
 txt = "For only {price:.2f} dollars!"
 print(txt.format(price=49))
@@ -12,3 +13,10 @@ print(txt.format(price=49))
 # The primary focus of this mechanism is to make the interpolation easier.
 
 # When we prefix the string with the letter 'f', the string becomes the string itself.
+
+print("Example 2")
+letter = "Hey my name is {} and I am from {}"
+country = "India"
+name = "Light"
+
+print(letter.format(name, country))
