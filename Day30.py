@@ -17,3 +17,7 @@ print(square.__doc__)
 # Python comments
 # They are descriptions that help programmers better understand the intent & functionality of code.
 # They are completely ignored by the python interpreter.
+
+# Python docstrings
+# As mentioned at the start, Python docstrings are strings used right after the definition of a f(), classs, module.
+# we can access these docstrings using the doc attribute.
