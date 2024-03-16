@@ -25,3 +25,12 @@ print("\nExample 3")
 print(f"Hey my name is {name} and I am from {country}")
 
 # f-string is newly introduced 3.6 onwards
+
+print("\nExample 4")
+print(f"{2 * 30}")
+print(type(f"{2 * 30}"))
+
+print("\nExample 5")
+
+# if we want to retain the raw string without replacing the variables values use double {{
+print(f"We use f-strings like this!!,Hey my name is {{name}} and I am from {{country}} ")
