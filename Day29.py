@@ -14,9 +14,12 @@ print(txt.format(price=49))
 
 # When we prefix the string with the letter 'f', the string becomes the string itself.
 
-print("Example 2")
+print("\nExample 2: Old ways")
 letter = "Hey my name is {} and I am from {}"
 country = "India"
 name = "Light"
 
 print(letter.format(name, country))
+
+print("\nExample 3")
+print(f"Hey my name is {name} and I am from {country}")
