@@ -23,3 +23,5 @@ print(letter.format(name, country))
 
 print("\nExample 3")
 print(f"Hey my name is {name} and I am from {country}")
+
+# f-string is newly introduced 3.6 onwards
