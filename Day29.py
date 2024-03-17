@@ -36,11 +36,13 @@ print("\nExample 5")
 print(f"We use f-strings like this!!,Hey my name is {{name}} and I am from {{country}} ")
 
 # More Examples
-
+print("\nExample 5")
 language = "Python"
 school = "freeCodeCamp"
 print(f"I'm learning {language} from {school}.")
 
+# How to Evaluate Expressions with Python f-Strings
+print("\nExample to show how to Evaluate Expressions with Python f-Strings")
 num1 = 83
 num2 = 9
 print(f"The product of {num1} and {num2} is {num1 * num2}.")
