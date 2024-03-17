@@ -46,3 +46,9 @@ print("\nExample to show how to Evaluate Expressions with Python f-Strings")
 num1 = 83
 num2 = 9
 print(f"The product of {num1} and {num2} is {num1 * num2}.")
+
+# How to Use Conditionals in Python f-Strings
+print("\n How to Use Conditionals in Python f-Strings")
+num = 87
+print(num)
+print(f"Is num even? {True if num % 2 == 0 else False}")
