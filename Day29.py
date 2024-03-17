@@ -52,3 +52,14 @@ print("\n How to Use Conditionals in Python f-Strings")
 num = 87
 print(num)
 print(f"Is num even? {True if num % 2 == 0 else False}")
+
+# How to Call Methods with Python f-Strings
+print("\nHow to Call Methods with Python f-Strings")
+author = "jane smith"
+print(f"This is a book by {author}.")
+
+# To print out the author's name formatted in title case
+print("\nTo print out the author's name formatted in title case")
+author = "jane smith"
+a_name = author.title()
+print(f"This is a book by {a_name}.")
