@@ -1,4 +1,4 @@
-# f-strings
+# f-strings in python
 # string formatting can be done in python using format method.
 
 # Example
