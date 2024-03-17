@@ -34,3 +34,9 @@ print("\nExample 5")
 
 # if we want to retain the raw string without replacing the variables values use double {{
 print(f"We use f-strings like this!!,Hey my name is {{name}} and I am from {{country}} ")
+
+# More Examples
+
+language = "Python"
+school = "freeCodeCamp"
+print(f"I'm learning {language} from {school}.")
