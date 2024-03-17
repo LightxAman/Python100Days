@@ -40,3 +40,7 @@ print(f"We use f-strings like this!!,Hey my name is {{name}} and I am from {{cou
 language = "Python"
 school = "freeCodeCamp"
 print(f"I'm learning {language} from {school}.")
+
+num1 = 83
+num2 = 9
+print(f"The product of {num1} and {num2} is {num1 * num2}.")
