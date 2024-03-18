@@ -12,6 +12,7 @@ square(5)
 # To see the docstring.
 print(square.__doc__)
 
+
 # Python Comments vs Docstrings
 
 # Python comments
@@ -21,3 +22,15 @@ print(square.__doc__)
 # Python docstrings
 # As mentioned at the start, Python docstrings are strings used right after the definition of a f(), classs, module.
 # we can access these docstrings using the doc attribute.
+
+def my_function():
+    """ ' 'Demonstrates triple double quotes docstrings and does nothing really' ' """
+
+    return None
+
+
+print("Using __doc__:")
+print(my_function.__doc__)
+
+print("Using help:")
+help(my_function)
