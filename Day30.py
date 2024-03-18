@@ -38,15 +38,15 @@ help(my_function)
 
 def multiply_numbers(a, b):
     """
-	Multiplies two numbers and returns the result.
+    Multiplies two numbers and returns the result.
 
-	Args:
-		a (int): The first number.
-		b (int): The second number.
+    Args:
+        a (int): The first number.
+        b (int): The second number.
 
-	Returns:
-		int: The product of a and b.
-	"""
+    Returns:
+        int: The product of a and b.
+    """
     return a * b
 
 
@@ -76,3 +76,13 @@ def divide_numbers(a, b):
 
 
 print(divide_numbers(3, 6))
+
+
+# One-line Docstrings
+def power(a, b):
+    """ ' 'Returns arg1 raised to power arg2.' ' """
+
+    return a ** b
+
+
+print(power.__doc__)
